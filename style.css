@@ -68,9 +68,14 @@ form {
     @media (max-width: 600px){
         h1{
             font-size: 100px;
-            color: red;
+            color: rgb(230, 78, 78);
         }
     }
 }
 
-
+ @media (max-width: 768px){
+        h2{
+            font-size: 100px;
+            color: rgb(27, 63, 223);
+        }
+    }
