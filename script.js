@@ -23,6 +23,10 @@ console.log(greet("mayung aga", ["Kimberly", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Philip Duay";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "60px";
+
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
