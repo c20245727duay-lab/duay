@@ -1,27 +1,23 @@
-body {
+lbody{
     text-align: center;
 }
-
 ul {
     list-style: none;
 }
-
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
 }
-
-nav ul {
-    display: flex;
+nav ul{
+    display:flex;
     gap: 20px;
     padding: 0;
     margin: 0;
 }
-
-main {
+main{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -29,74 +25,67 @@ main {
     max-width: 1200px;
 
 }
-
-main section {
-    flex: 2;
-    min-width: 400px;
+main section{
+    flex: 1;
+    min-width: 280px;
     border: 2px solid black;
     padding: 20px;
 }
-
-form {
+form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 @media (max-width: 600px){
-    nav {
-    flex-direction: column;
-     gap: 15px;
+    nav{
+        flex-direction: column;
+        gap: 15px;
     }
-
-    nav ul{
+    nav ul {
         flex-direction: column;
         text-align: center;
     }
-
     main{
         padding: 15px;
         margin: 10px;
         gap: 20px;
     }
-
-    main section {
+    main section{
         flex: 1 1 100%;
         min-width: 0;
         padding: 15px;
     }
-
-    @media (max-width: 600px){
+}
+    @media(max-width: 600px) {
         h1{
             font-size: 100px;
-            color: rgb(230, 78, 78);
-        }
-    }
-}
-
- @media (max-width: 768px){
-        h2{
-            font-size: 100px;
-            color: rgb(27, 63, 223);
-
+            color: red;
         }
     }
 
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 68px;
+            color: blue;
+
+        }
+        
+    }
     nav a{
         transition: color 0.5s ease;
     }
-    nav a:hover {
-        color: rgb(236, 11, 206);
+    nav a:hover{
+        color: pink;
     }
-    button {
-        transition: background-color 0.3s ease;
+    button{
+        transition: background-color 1s ease;
         background-color: black;
         color: white;
         border-radius: 10px;
-        border: none;
-        padding: 12px
+        border : none;
+        padding: 12px 24px;
     }
     button:hover{
-        background-color: pink;
-        color: black;
-        
-    }
+    background-color: pink;
+    color: black;
+}
