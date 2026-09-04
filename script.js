@@ -13,7 +13,7 @@ console.log(`number: ${number}`);
 console.log(`address: ${address}`);
 console.log(67);
 
-    function greet(greetings,name = []) {
+   function greet(greetings,name = []) {
     if (Array.isArray(name)) {
         name = name.join(", ");
     return `${greetings} sa enyu, ${name}`;
