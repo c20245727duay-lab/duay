@@ -22,6 +22,7 @@ console.log(67);
 console.log(greet("mayung aga", ["Kimberly", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
+heading.textContent = "Philip Duay";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
@@ -29,3 +30,5 @@ console.log(contactHeading);
 
 const serviceHeading = document.querySelector("#services h2");
 console.log(serviceHeading);
+
+
